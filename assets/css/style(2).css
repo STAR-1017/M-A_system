@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/*
+ Theme Name: SANGO Child
+ Theme URI: https://saruwakakun.design
+ Author: SARUWAKA
+ Author URI: https://saruwakakun.com
+ Template: sango-theme
+ Version: 4.0
+*/
+/*こちらはSANGOの子テーマ用CSSです。以下にCSSを記入していきましょう。*/
+
+.home #container .header, #divheader, .cardtype__article:first-child, .cardtype__article:nth-child(2), .sidelong__article:first-child, .sidelong__article:nth-child(2), .mobile-nav ul {
+    animation: none;
+}
+
+.header #logo img { padding: 0; }
+#container .header-info a { border-top: 0; }
+#container .header-info i { margin-right: 5px; }
+#container .header { box-shadow: none; }
+
+#fixed_sidebar { padding-top: 25px; }
+#fixed_sidebar .widget { margin-bottom: 2.5em; }
+#drawer__content img { max-width: 90%; }
+
+.panel-menu-title i { margin-right: 4px; }
+.footer-logo img { width: 150px; }
+
+.widget_categories ul li ul li a { padding-left: 28px; }
+
+.widget .searchform div { max-width: none; }
+.widget .side-banner { 
+	background:#eaedf2;
+	text-align:center;
+}
+
+#top-manual,
+#top-qa,
+#top-ranking,
+#top-blog {
+	margin-bottom: 2.5em;
+}
+
+#top-manual .sitemap-category-title,
+#top-qa .sitemap-category-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+#top-manual .hh i,
+#top-qa .hh i,
+#top-ranking .hh i,
+#top-blog .hh i{
+	margin-right: 5px;
+}
+
+#top-ranking .my-widget__img{
+	display: none;
+}
+
+#top-ranking ul.my-widget{
+	list-style-type: none;
+	padding: 0;
+	border: 0;
+}
+
+#top-ranking .widget{
+	margin: 0;
+}
+
+#top-ranking .my_popular_posts{
+	margin: 0 15px;
+}
+
+#top-manual a.linkto,
+#top-qa a.linkto,
+#top-blog a.linkto {
+	max-width: none;
+	border: none;
+	border-radius: 0;
+	margin: 0;
+	font-weight: normal;
+	color: #000;
+}
+
+#top-manual a.linkto:hover,
+#top-qa a.linkto:hover {
+	background: none;
+}
+#top-manual a.linkto .tbtext,
+#top-qa a.linkto .tbtext {
+	width: 100%;
+	font-size: 0.85em;
+}
+
+#top-manual a.linkto:hover,
+#top-qa a.linkto:hover {
+	color: #0067c0;
+	margin-left: 20px;
+}
+#top-manual .category-all-link,
+#top-qa .category-all-link,
+#top-blog .category-all-link {
+	text-align: right;
+	font-size: 0.85em;
+}
+
+#top-manual a.category-showmore-btn:before,
+#top-qa a.category-showmore-btn:before,
+#top-blog a.category-showmore-btn:before{
+	content: "\f055";
+	font-family: "Font Awesome 5 Free";
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+#archive_header {
+	margin-bottom: 0;
+	border-top-width: 0;
+}
+#related-list ul,
+#entry-list ul{
+	margin: 0;
+}
+#related-list li,
+#entry-list li{
+	color: #999;
+	padding: 10px 0;
+}
+#related-list {
+	margin: 0;
+	padding: 0 25px 60px;
+}
+#breadcrumb li:first-child a:before{
+	content: "";
+}
+
+.search-results #entry-list{
+	padding-top: 60px;
+}
+
+.notfound { margin:0; }	
+
+#top-search {
+	text-align: center;
+}
+
+#top-search .searchform {
+	margin-top: 1.5em;
+}
+
+#top-search .searchform div {
+	display: inline-block;
+	width: 100%;
+	max-width: 600px;
+}
+
+#top-search .many-keywords{
+	font-size: 0.8em;
+	color: #999;
+}
+a.contact {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+/*========= 480px以下のデバイスの場合 =========*/
+
+#container .header-info a { font-size: 12px; }
+#container #logo { padding: 0; }
+
+#entry-list {
+	margin: 0;
+	padding: 0 25px 60px;
+	background: #FFF;
+}
+
+/*========= 481px〜のデバイスの場合 =========*/
+@media only screen and (min-width: 481px) {
+
+.notfound { margin:0 2% 0; }	
+#entry-list {
+	margin: 0 2% 0;
+	padding: 0 15px 60px 25px;
+	background: #FFF;
+}
+
+}
+/*========= 768px以下の場合 =========*/
+@media only screen and (max-width: 768px) {
+
+#sidebar1 { margin-top: 2.5em; }
+#related-list,
+#related-header-title {
+	margin: 0 5%;
+}
+#related-list{
+	padding: 15px 15px 60px 15px;
+}
+
+}
+/*========= 769px〜の場合 =========*/
+@media only screen and (min-width: 769px) {
+
+#container .header-info a { font-size: 14px; }
+
+}
+
+/*========= 1030px〜の場合 =========*/
+@media only screen and (min-width: 1030px) {
+
+.d-5of7{
+	padding-right: 2em;
+}	
+
+#archive_header {
+	margin: 0;
+}
+
+.notfound { margin:0; }	
+
+#entry-list {
+	margin: 0;
+	padding: 0 15px 60px 60px;
+	background: #FFF;
+}
+
+}
+
+/*========= 1240px〜の場合 =========*/
+@media only screen and (min-width: 1240px) {
+
+}

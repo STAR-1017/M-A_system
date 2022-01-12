@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=960">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="thumbnail" content="https://rakkoid.com/img/id_meta_thumbnail.png">
+    <title>メール設定 | ラッコID</title>
+    <meta name="description" content="かんたん30秒登録！サイト売買、ドメインなどウェブサイト運営に関わる様々なウェブサービスが使えるラッコID、まずはメールアドレスだけでさくっと登録！">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="icon" href="https://rakkoid.com/favicon.ico">
+    <link rel="apple-touch-icon" href="https://rakkoid.com/img/apple-touch-icon.png" sizes="180x180">
+    <meta property="og:title" content="メール設定 | ラッコID">
+    <meta property="og:description" content="かんたん30秒登録！サイト売買、ドメインなどウェブサイト運営に関わる様々なウェブサービスが使えるラッコID、まずはメールアドレスだけでさくっと登録！">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rakkoid.com/">
+    <meta property="og:image" content="https://rakkoid.com/img/ogp_img.png">
+    <meta property="og:site_name" content="ラッコID">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="rakkoid.com">
+    <meta property="twitter:title" content="メール設定 | ラッコID">
+    <meta name="twitter:image" content="https://rakkoid.com/img/ogp_img.png">
+    <meta name="twitter:description" content="かんたん30秒登録！サイト売買、ドメインなどウェブサイト運営に関わる様々なウェブサービスが使えるラッコID、まずはメールアドレスだけでさくっと登録！">
+    <meta itemprop="image" content="https://rakkoid.com/img/ogp_img.png">
+    <meta name="csrf-token" content="Mee8HGFHy2KPjiIwQGmYTScMccZKNoIgrflczcMz">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+    <link href="./assets/css/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/notosansjp.css">
+    <link rel="stylesheet" href="./assets/css/mypage.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <script type="text/javascript" async="" src="./assets/js/analytics.js"></script>
+    <script async="" src="./assets/js/gtm.js"></script>
+    <script href="https://unpkg.com/vue-stripe-checkout/build/vue-stripe-checkout.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-523MXQN');
+    </script>
+    <!-- End Google Tag Manager -->
+    <style type="text/css">
+        @charset "UTF-8";
+        .mx-datepicker {
+            position: relative;
+            display: inline-block;
+            width: 210px;
+            color: #73879c;
+            font: 14px/1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', sans-serif;
+        }
+        
+        .mx-datepicker * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .mx-datepicker.disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        
+        .mx-datepicker-range {
+            width: 320px;
+        }
+        
+        .mx-datepicker-popup {
+            position: absolute;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            border: 1px solid #d9d9d9;
+            background-color: #fff;
+            -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+            z-index: 1000;
+        }
+        
+        .mx-input-wrapper {
+            position: relative;
+        }
+        
+        .mx-input-wrapper .mx-clear-wrapper {
+            display: none;
+        }
+        
+        .mx-input-wrapper:hover .mx-clear-wrapper {
+            display: block;
+        }
+        
+        .mx-input-wrapper:hover .mx-clear-wrapper+.mx-input-append {
+            display: none;
+        }
+        
+        .mx-input {
+            display: inline-block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 30px;
+            padding-left: 10px;
+            font-size: 14px;
+            line-height: 1.4;
+            color: #555;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        }
+        
+        .mx-input:disabled,
+        .mx-input.disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        
+        .mx-input:focus {
+            outline: none;
+        }
+        
+        .mx-input::-ms-clear {
+            display: none;
+        }
+        
+        .mx-input-append {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 30px;
+            height: 100%;
+            padding: 6px;
+        }
+        
+        .mx-input-icon {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            font-style: normal;
+            color: #555;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .mx-calendar-icon {
+            width: 100%;
+            height: 100%;
+            color: #555;
+            stroke-width: 8px;
+            stroke: currentColor;
+            fill: currentColor;
+        }
+        
+        .mx-clear-icon::before {
+            display: inline-block;
+            content: '\2716';
+            vertical-align: middle;
+        }
+        
+        .mx-clear-icon::after {
+            content: '';
+            display: inline-block;
+            width: 0;
+            height: 100%;
+            vertical-align: middle;
+        }
+        
+        .mx-range-wrapper {
+            width: 496px;
+            overflow: hidden;
+        }
+        
+        .mx-shortcuts-wrapper {
+            text-align: left;
+            padding: 0 12px;
+            line-height: 34px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        
+        .mx-shortcuts-wrapper .mx-shortcuts {
+            background: none;
+            outline: none;
+            border: 0;
+            color: #48576a;
+            margin: 0;
+            padding: 0;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        
+        .mx-shortcuts-wrapper .mx-shortcuts:hover {
+            color: #419dec;
+        }
+        
+        .mx-shortcuts-wrapper .mx-shortcuts:after {
+            content: '|';
+            margin: 0 10px;
+            color: #48576a;
+        }
+        
+        .mx-shortcuts-wrapper .mx-shortcuts:last-child::after {
+            display: none;
+        }
+        
+        .mx-datepicker-footer {
+            padding: 4px;
+            clear: both;
+            text-align: right;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        
+        .mx-datepicker-btn {
+            font-size: 12px;
+            line-height: 1;
+            padding: 7px 15px;
+            margin: 0 5px;
+            cursor: pointer;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+        }
+        
+        .mx-datepicker-btn-confirm {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            color: #73879c;
+        }
+        
+        .mx-datepicker-btn-confirm:hover {
+            color: #1284e7;
+            border-color: #1284e7;
+        }
+        /* 日历组件 */
+        
+        .mx-calendar {
+            float: left;
+            color: #73879c;
+            padding: 6px 12px;
+            font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, sans-serif;
+        }
+        
+        .mx-calendar * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .mx-calendar-header {
+            padding: 0 4px;
+            height: 34px;
+            line-height: 34px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .mx-calendar-header>a {
+            color: inherit;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .mx-calendar-header>a:hover {
+            color: #419dec;
+        }
+        
+        .mx-icon-last-month,
+        .mx-icon-last-year,
+        .mx-icon-next-month,
+        .mx-icon-next-year {
+            padding: 0 6px;
+            font-size: 20px;
+            line-height: 30px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        .mx-icon-last-month,
+        .mx-icon-last-year {
+            float: left;
+        }
+        
+        .mx-icon-next-month,
+        .mx-icon-next-year {
+            float: right;
+        }
+        
+        .mx-calendar-content {
+            width: 224px;
+            height: 224px;
+        }
+        
+        .mx-calendar-content .cell {
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        
+        .mx-calendar-content .cell:hover {
+            background-color: #eaf8fe;
+        }
+        
+        .mx-calendar-content .cell.actived {
+            color: #fff;
+            background-color: #1284e7;
+        }
+        
+        .mx-calendar-content .cell.inrange {
+            background-color: #eaf8fe;
+        }
+        
+        .mx-calendar-content .cell.disabled {
+            cursor: not-allowed;
+            color: #ccc;
+            background-color: #f3f3f3;
+        }
+        
+        .mx-panel {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        
+        .mx-panel-date {
+            table-layout: fixed;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        
+        .mx-panel-date td,
+        .mx-panel-date th {
+            font-size: 12px;
+            width: 32px;
+            height: 32px;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .mx-panel-date td.today {
+            color: #2a90e9;
+        }
+        
+        .mx-panel-date td.last-month,
+        .mx-panel-date td.next-month {
+            color: #ddd;
+        }
+        
+        .mx-panel-year {
+            padding: 7px 0;
+        }
+        
+        .mx-panel-year .cell {
+            display: inline-block;
+            width: 40%;
+            margin: 1px 5%;
+            line-height: 40px;
+        }
+        
+        .mx-panel-month .cell {
+            display: inline-block;
+            width: 30%;
+            line-height: 40px;
+            margin: 8px 1.5%;
+        }
+        
+        .mx-time-list {
+            position: relative;
+            float: left;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 100%;
+            height: 100%;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            border-left: 1px solid rgba(0, 0, 0, 0.05);
+            overflow-y: auto;
+            /* 滚动条滑块 */
+        }
+        
+        .mx-time-list .mx-time-picker-item {
+            display: block;
+            text-align: left;
+            padding-left: 10px;
+        }
+        
+        .mx-time-list:first-child {
+            border-left: 0;
+        }
+        
+        .mx-time-list .cell {
+            width: 100%;
+            font-size: 12px;
+            height: 30px;
+            line-height: 30px;
+        }
+        
+        .mx-time-list::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        
+        .mx-time-list::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+        }
+        
+        .mx-time-list:hover::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <style type="text/css">
+        a[data-v-82963a40] {
+            cursor: pointer
+        }
+    </style>
+    <style type="text/css">
+        .vue-tooltip {
+            background-color: #000;
+            box-sizing: border-box;
+            color: #fff;
+            max-width: 320px;
+            padding: 6px 10px;
+            border-radius: 3px;
+            z-index: 100;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, .4)
+        }
+        
+        .vue-tooltip.vue-tooltip-hidden {
+            transform: translateX(-100000px)!important
+        }
+        
+        .vue-tooltip .vue-tooltip-content {
+            text-align: center
+        }
+        
+        .vue-tooltip .tooltip-arrow {
+            content: "";
+            width: 0;
+            height: 0;
+            border-style: solid;
+            position: absolute;
+            margin: 5px
+        }
+        
+        .vue-tooltip[x-out-of-boundaries] {
+            display: none
+        }
+        
+        .vue-tooltip[x-placement^=bottom] {
+            margin-top: 5px
+        }
+        
+        .vue-tooltip[x-placement^=bottom] .tooltip-arrow {
+            border-width: 0 5px 5px;
+            border-bottom-color: #000;
+            border-top-color: transparent!important;
+            border-left-color: transparent!important;
+            border-right-color: transparent!important;
+            top: -5px;
+            margin-top: 0;
+            margin-bottom: 0
+        }
+        
+        .vue-tooltip[x-placement^=top] {
+            margin-bottom: 5px
+        }
+        
+        .vue-tooltip[x-placement^=top] .tooltip-arrow {
+            border-width: 5px 5px 0;
+            border-top-color: #000;
+            border-bottom-color: transparent!important;
+            border-left-color: transparent!important;
+            border-right-color: transparent!important;
+            bottom: -5px;
+            margin-top: 0;
+            margin-bottom: 0
+        }
+        
+        .vue-tooltip[x-placement^=right] {
+            margin-left: 5px
+        }
+        
+        .vue-tooltip[x-placement^=right] .tooltip-arrow {
+            border-width: 5px 5px 5px 0;
+            border-right-color: #000;
+            border-top-color: transparent!important;
+            border-left-color: transparent!important;
+            border-bottom-color: transparent!important;
+            left: -5px;
+            margin-left: 0;
+            margin-right: 0
+        }
+        
+        .vue-tooltip[x-placement^=left] {
+            margin-right: 5px
+        }
+        
+        .vue-tooltip[x-placement^=left] .tooltip-arrow {
+            border-width: 5px 0 5px 5px;
+            border-left-color: #000;
+            border-top-color: transparent!important;
+            border-right-color: transparent!important;
+            border-bottom-color: transparent!important;
+            right: -5px;
+            margin-left: 0;
+            margin-right: 0
+        }
+    </style>
+    <style type="text/css">
+        .vue-js-switch[data-v-25adc6c0] {
+            display: inline-block;
+            position: relative;
+            vertical-align: middle;
+            user-select: none;
+            font-size: 10px;
+            cursor: pointer
+        }
+        
+        .vue-js-switch .v-switch-input[data-v-25adc6c0] {
+            opacity: 0;
+            position: absolute;
+            width: 1px;
+            height: 1px
+        }
+        
+        .vue-js-switch .v-switch-label[data-v-25adc6c0] {
+            position: absolute;
+            top: 0;
+            font-weight: 600;
+            color: #fff;
+            z-index: 1
+        }
+        
+        .vue-js-switch .v-switch-label.v-left[data-v-25adc6c0] {
+            left: 10px
+        }
+        
+        .vue-js-switch .v-switch-label.v-right[data-v-25adc6c0] {
+            right: 10px
+        }
+        
+        .vue-js-switch .v-switch-core[data-v-25adc6c0] {
+            display: block;
+            position: relative;
+            box-sizing: border-box;
+            outline: 0;
+            margin: 0;
+            transition: border-color .3s, background-color .3s;
+            user-select: none
+        }
+        
+        .vue-js-switch .v-switch-core .v-switch-button[data-v-25adc6c0] {
+            display: block;
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            border-radius: 100%;
+            background-color: #fff;
+            z-index: 2
+        }
+        
+        .vue-js-switch.disabled[data-v-25adc6c0] {
+            pointer-events: none;
+            opacity: .6
+        }
+    </style>
+    <style type="text/css"></style>
+    <style type="text/css">
+        .slide-enter-active[data-v-d972cc8e],
+        .slide-leave-active[data-v-d972cc8e] {
+            -webkit-transition: -webkit-transform .5s ease-in-out;
+            transition: -webkit-transform .5s ease-in-out;
+            transition: transform .5s ease-in-out;
+            transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out
+        }
+        
+        .slide-enter[data-v-d972cc8e] {
+            -webkit-transform: translateX(200px);
+            transform: translateX(200px)
+        }
+        
+        .slide-leave-active[data-v-d972cc8e] {
+            -webkit-transform: translateX(-200px);
+            transform: translateX(-200px)
+        }
+        
+        #banner-content[data-v-d972cc8e] {
+            position: relative;
+            height: 75px;
+            margin-bottom: 15px
+        }
+        
+        .banner-wrap[data-v-d972cc8e] {
+            position: absolute;
+            width: 200px;
+            height: 75px;
+            overflow: hidden
+        }
+        
+        .banner-wrap img[data-v-d972cc8e] {
+            width: 200px;
+            height: 75px
+        }
+        
+        .banner[data-v-d972cc8e] {
+            position: absolute;
+            width: 200px;
+            height: 75px;
+            margin: 0
+        }
+    </style>
+    <style type="text/css">
+        h2 {
+            font-size: 1.1em;
+            padding: 20px 20px 20px 0
+        }
+        
+        .bold,
+        h2 {
+            font-weight: 700
+        }
+        
+        .c-mail-box .id-mail-box {
+            border-radius: 5px;
+            padding: 30px 15px;
+            border: 1px solid #ddd
+        }
+        
+        .c-mail-box .id-mail-box .each-service-mail-box {
+            border-radius: 5px;
+            margin-top: 40px;
+            padding: 15px 15px 15px 0
+        }
+        
+        .c-mail-box .id-mail-box .each-service-mail-box p {
+            margin-bottom: 40px;
+            line-height: 30px
+        }
+        
+        .c-mail-box .id-mail-box .each-service-mail-box p:last-child {
+            margin-bottom: 10px
+        }
+        
+        .c-mail-box .id-mail-box .each-service-mail-box label {
+            margin-right: 10px;
+            background: transparent;
+            border: none
+        }
+        
+        input[type=checkbox] {
+            margin: 3px .5px;
+            margin-left: 2px
+        }
+        
+        #general_box {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px
+        }
+        
+        #general_box div {
+            margin-bottom: 20px
+        }
+        
+        #general_box div:last-child {
+            margin-bottom: 0
+        }
+        
+        #general_box label {
+            padding: 5px 10px;
+            margin-right: 10px;
+            background: transparent;
+            border: none
+        }
+        
+        .mail-switch {
+            padding-left: 12px
+        }
+        
+        @media screen and (max-width:736px) {
+            #general_box .each-service-mail-box {
+                padding: 0 0 30px
+            }
+            #general_box .each-service-mail-box label {
+                margin-right: 0
+            }
+        }
+    </style>
+    <style type="text/css">
+        .c-form {
+            position: relative;
+            z-index: 1
+        }
+        
+        .c-form-body .form-group {
+            padding: 10px 10px 10px 20px;
+            margin-bottom: 0;
+            border-top: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd
+        }
+        
+        .c-form-body .form-group .title {
+            font-size: .89rem;
+            line-height: 1.4;
+            padding: 1.2rem 0 0 2rem;
+            text-indent: -2rem;
+            width: 160px;
+            position: absolute;
+            left: 30px
+        }
+        
+        .c-form-body .form-group .title .important {
+            background: #f73b4b;
+            color: #fff
+        }
+        
+        .c-form-body .form-group .title .cate,
+        .c-form-body .form-group .title .service {
+            font-size: 10px;
+            border-radius: 5px;
+            padding: 3px;
+            margin-right: 5px
+        }
+        
+        .c-form-body .form-group .status {
+            display: none;
+            font-size: 1.5rem;
+            padding: 1.2rem 0;
+            width: 50px;
+            position: absolute;
+            left: 186px
+        }
+        
+        .c-form-body .form-group .status-edited {
+            display: inline;
+            color: #2196f3
+        }
+        
+        .c-form-body .form-group .status-error {
+            display: inline;
+            color: #f73b4b
+        }
+        
+        .c-form-body .form-group .input-body {
+            padding: 1rem .5rem;
+            max-width: none!important;
+            margin-left: 208px;
+            margin-right: 20px;
+            width: auto
+        }
+        
+        .c-form-body .form-group .input-body textarea {
+            line-height: 20px
+        }
+        
+        .c-form-body .form-group .input-body textarea.disabled {
+            background-color: #ccc
+        }
+        
+        .c-form-body .form-group:last-of-type {
+            border-bottom: 1px solid #ccc;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-bottom: 20px
+        }
+        
+        .c-form-body .form-group .bank-branch-name,
+        .c-form-body .form-group .bank-name {
+            color: #616060
+        }
+        
+        .c-form-body .form-group-button {
+            padding: 0 10px 10px 30px;
+            margin-bottom: 0;
+            border-bottom: 1px solid #ccc;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            margin-bottom: 20px
+        }
+        
+        .c-form-body .form-group-button .button {
+            padding: .5rem .5rem 1.2rem;
+            margin-left: 210px
+        }
+        
+        .c-form-body button {
+            color: #fff;
+            border: 0;
+            width: 300px;
+            font-size: 1rem;
+            text-align: center;
+            background: #74bf00;
+            border-radius: 5px;
+            line-height: 17px
+        }
+        
+        .c-form-body button:hover {
+            color: #73bf00;
+            background: #fff;
+            opacity: 1;
+            border: 1px solid #73bf00
+        }
+        
+        .c-form-body button.loading,
+        .c-form-body button.loading:hover {
+            background: #eee;
+            border: 3px solid #eee
+        }
+        
+        .c-form-body button.check {
+            background: #2196f3
+        }
+        
+        .c-form-body button.check:hover {
+            background: #2196f3;
+            border: none;
+            color: #fff
+        }
+        
+        .c-form-body button.fail {
+            background: red
+        }
+        
+        .c-form-body button.fail:hover {
+            background: red;
+            border: none;
+            color: #fff
+        }
+        
+        .c-form-body button.withsubtext {
+            line-height: 17px;
+            height: 100px!important
+        }
+        
+        .c-form-body label {
+            color: #616060
+        }
+        
+        .c-form-body .error-message {
+            padding-top: 5px;
+            clear: both
+        }
+        
+        #form-block-submit {
+            display: block;
+            margin-top: 30px;
+            height: 36px
+        }
+        
+        #form-block-submit.disabled {
+            opacity: 1;
+            background: #ccc;
+            cursor: default
+        }
+        
+        #form-block-submit.disabled:hover {
+            background: #ccc;
+            border: none;
+            color: #fff
+        }
+        
+        #search_box #form-block-submit {
+            margin-top: 0
+        }
+        
+        #toast {
+            display: none;
+            position: fixed;
+            width: 200px;
+            left: 45px;
+            bottom: 70px;
+            text-align: center;
+            color: #72bf00;
+            border: 1px solid #d6e8c9;
+            background: #e9ffd9;
+            border-radius: 5px;
+            padding: 20px;
+            line-height: 1.4;
+            z-index: 100
+        }
+        
+        #toast i {
+            color: #72bf00;
+            margin-right: 10px
+        }
+        
+        @media screen and (max-width:736px) {
+            .c-form-body button,
+            .reset_btn {
+                width: 100%
+            }
+        }
+        
+        .circle {
+            position: relative;
+            width: 28px;
+            height: 28px;
+            margin: 0 auto;
+            background: #aaa;
+            border-radius: 50%;
+            text-align: center;
+            overflow: hidden;
+            z-index: 1
+        }
+        
+        .circle:before {
+            left: -15px;
+            -webkit-transform-origin: right 15px;
+            transform-origin: right 15px;
+            z-index: 2;
+            -webkit-animation: rotate-circle-left 1s ease-in forwards;
+            animation: rotate-circle-left 1s ease-in forwards
+        }
+        
+        .circle:after,
+        .circle:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            background: #ccc
+        }
+        
+        .circle:after {
+            left: 15px;
+            -webkit-transform-origin: left 15px;
+            transform-origin: left 15px;
+            z-index: 3;
+            -webkit-animation: rotate-circle-right 1s ease-in forwards;
+            animation: rotate-circle-right 1s ease-in forwards
+        }
+        
+        .circle .circle-inner {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 22px;
+            height: 22px;
+            padding-top: 3px;
+            background: #eee;
+            border-radius: 50%;
+            z-index: 4
+        }
+        
+        @-webkit-keyframes rotate-circle-right {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+                background: #ccc
+            }
+            50% {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+                background: #ccc
+            }
+            50.001% {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+                background: #aaa
+            }
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+                background: #aaa
+            }
+        }
+        
+        @keyframes rotate-circle-right {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+                background: #ccc
+            }
+            50% {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+                background: #ccc
+            }
+            50.001% {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+                background: #aaa
+            }
+            to {
+                -webkit-transform: rotate(1turn);
+                transform: rotate(1turn);
+                background: #aaa
+            }
+        }
+        
+        @-webkit-keyframes rotate-circle-left {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+            50% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+            to {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg)
+            }
+        }
+        
+        @keyframes rotate-circle-left {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+            50% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+            to {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg)
+            }
+        }
+        
+        input#check1 {
+            display: none
+        }
+        
+        label.check_label {
+            position: relative;
+            display: block;
+            font-size: 40px;
+            border: none;
+            background: transparent;
+            margin-top: 6px;
+            margin-left: 20px;
+            height: 25px
+        }
+        
+        label.check_label .check_mark {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            margin-right: .5em;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            color: #fff
+        }
+        
+        label.check_label .check_mark:before {
+            height: .5em;
+            -webkit-transform-origin: center bottom;
+            transform-origin: center bottom;
+            -webkit-transform: translateX(-50%) scaleX(-1) rotate(-135deg) translateY(.5em);
+            transform: translateX(-50%) scaleX(-1) rotate(-135deg) translateY(.5em)
+        }
+        
+        label.check_label .check_mark:after,
+        label.check_label .check_mark:before {
+            content: "";
+            position: absolute;
+            bottom: 25%;
+            left: 50%;
+            font-size: 0;
+            width: .25em;
+            background-color: currentColor
+        }
+        
+        label.check_label .check_mark:after {
+            height: .94em;
+            -webkit-transform-origin: center bottom;
+            transform-origin: center bottom;
+            -webkit-transform: translateX(-50%) rotate(45deg) translate(.05em, .125em);
+            transform: translateX(-50%) rotate(45deg) translate(.05em, .125em)
+        }
+        
+        label.check_label .check_mark:before {
+            font-size: .5em;
+            -webkit-animation: check_anim .1s linear both;
+            animation: check_anim .1s linear both
+        }
+        
+        label.check_label .check_mark:after {
+            font-size: .5em;
+            -webkit-animation: check_anim .1s .1s linear both;
+            animation: check_anim .1s .1s linear both
+        }
+        
+        p#subtext {
+            clear: both;
+            font-size: .7rem
+        }
+        
+        @-webkit-keyframes check_anim {
+            0% {
+                height: 0
+            }
+        }
+        
+        @keyframes check_anim {
+            0% {
+                height: 0
+            }
+        }
+    </style>
+    <style media="screen" type="text/css">
+        #rakko_help_widget_link {
+            width: 28px;
+            height: 28px;
+            background-color: rgba(64, 64, 64, 0.8);
+            border-radius: 50%;
+            box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            box-sizing: border-box;
+            line-height: 1;
+            color: #666;
+        }
+        
+        #rakko_help_widget_img {
+            height: 12px;
+            width: 8px;
+        }
+        
+        #rakko_help_widget_link:hover {
+            opacity: 1;
+            background-color: rgba(64, 64, 64, 0.8);
+        }
+        
+        #rakko_help_widget_link:hover+#help_balloon {
+            display: inline;
+        }
+        
+        #help_balloon {
+            position: absolute;
+            display: none;
+            background-color: rgba(85, 85, 85, 0.9);
+            left: -170px;
+            top: 0px;
+            padding: 7px;
+            border-radius: 3px;
+        }
+        
+        #help_balloon:before {
+            content: "ヘルプ・お問い合わせ";
+            font-size: 14px;
+            color: #fff;
+        }
+        
+        #help_balloon:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: -12px;
+            margin-top: -6px;
+            border: 6px solid transparent;
+            border-left: 6px solid rgba(85, 85, 85, 0.9);
+        }
+    </style>
+    <style>
+        .bootstrapiso .tooltip {
+            font-size: 14px;
+        }
+        
+        .bootstrapiso .tooltip-inner {
+            max-width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-523MXQN"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="app">
+        <header class="clearfix">
+            <h1 id="logo">
+                <a data-v-36af0447="" href="https://rakkoid.com/"><img data-v-36af0447="" src="./assets/img/12_2_tonakai.png"></a>
+            </h1>
+            <div id="header_menu">
+                <div class="menu-icon affiliate-btn"><a href="https://rakkoid.com/affiliate">
+        アフィリエイト
+      </a></div>
+                <div class="menu-icon"><i class="fas fa-bars fa-fw"></i></div>
+                <div class="menu-icon"><i class="fas fa-th fa-fw"></i></div>
+                <div class="menu-icon menu-icon-bell"><i class="fas fa-bell fa-fw"></i>
+                    <!---->
+                </div>
+                <div dusk="menu-user" class="menu-icon"><i class="fas fa-user fa-fw"></i></div>
+                <!---->
+            </div>
+        </header>
+        <div id="side" style="height: 777px; position: relative;">
+            <div id="side-content">
+                <div data-v-d972cc8e="" id="banner-content">
+                    <div data-v-d972cc8e="" class="banner-wrap">
+                        <a data-v-d972cc8e="" rel="noopener" target="_blank" href="https://related-keywords.com/" class="banner"><img data-v-d972cc8e="" alt="ラッコキーワード" src="./assets/img/keyword_banner.png"></a>
+                    </div>
+                </div>
+                <ul>
+                    <li class=""><a href="https://rakkoid.com/mypage/"><i class="fas fa-clipboard fa-fw"></i>マイページ</a></li>
+                    <li class=""><a href="https://rakkoid.com/mypage/point"><i class="fas fa-yen-sign fa-fw"></i>ラッコポイント</a></li>
+                    <li class=""><a href="https://rakkoid.com/mypage/me"><i class="fas fa-user fa-fw"></i>ユーザー情報</a></li>
+                    <li class=""><a href="https://rakkoid.com/mypage/credit"><i class="fas fa-credit-card fa-fw"></i>クレジットカード</a></li>
+                    <li class=""><a href="https://rakkoid.com/mypage/affiliate"><i class="fas fa-pen-nib"></i>アフィリエイト</a></li>
+                    <li class=""><a href="https://rakkoid.com/mypage/sales"><i class="fas fa-chart-line"></i>売上金</a></li>
+                    <li class=""><a href="https://rakkoid.com/mypage/security"><i class="fas fa-lock fa-fw"></i>セキュリティ設定</a></li>
+                    <li class="active"><a href="https://rakkoid.com/mypage/mail"><i class="fas fa-envelope fa-fw"></i>メール配信設定</a></li>
+                    <li class=""><a href="https://rakkoid.com/mypage/pointBack"><i class="fas fa-parking"></i>ポイントバック</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main" style="margin-bottom: 0px;">
+            <div class="c-form">
+                <div class="c-form-body">
+                    <div>
+                        <div class="rakko_balloon_static">
+                            <div class="rakko_balloon_img"><img src="./assets/img/rakko_scholar.png" alt=""></div>
+                            <div class="rakko_balloon_txt">
+                                <p>
+                                    各サービスのメール受信設定が行えます。<br> 受信するメールにチェックを、受信しないメールはチェックを外してください。
+                                </p>
+                                <p class="orange b"><i class="fas fa-exclamation fa-fw mr5"></i>重要なお知らせは配信停止にすることができません。<br> <i class="fas fa-exclamation fa-fw mr5"></i>PR/キャンペーン情報はクーポン配布もあるので、受信がおすすめ！
+                                </p>
+                            </div>
+                        </div>
+                        <div id="general_box">
+                            <div class="clearfix">
+                                <p class="b">ラッコID</p> <label><span>重要なお知らせ</span> <input type="checkbox" name="fake" disabled="disabled" value="true"> </label> <label>
+            PR/キャンペーン情報
+            <input type="checkbox" name="PR/キャンペーン情報" value="1"></label><label>
+            アップデート
+            <input type="checkbox" name="アップデート" value="1"></label><label>
+            障害・メンテナンス
+            <input type="checkbox" name="障害・メンテナンス" value="1"></label><label>
+            RP有効期限通知
+            <input type="checkbox" name="RP有効期限通知" value="1"></label><label>
+            アフィリエイト成果発生通知
+            <input type="checkbox" name="アフィリエイト成果発生通知" value="1"></label></div>
+                            <div class="clearfix">
+                                <p class="b">ラッコドメイン</p> <label><span>重要なお知らせ</span> <input type="checkbox" name="fake" disabled="disabled" value="true"> </label> <label>
+            アップデート
+            <input type="checkbox" name="アップデート" value="1"></label><label>
+            障害・メンテナンス
+            <input type="checkbox" name="障害・メンテナンス" value="1"></label></div>
+                            <div class="clearfix">
+                                <p class="b">ラッコM&amp;A</p> <label><span>重要なお知らせ</span> <input type="checkbox" name="fake" disabled="disabled" value="true"> </label> <label>
+            アップデート
+            <input type="checkbox" name="アップデート" value="1"></label><label>
+            障害・メンテナンス
+            <input type="checkbox" name="障害・メンテナンス" value="1"></label><label>
+            新着案件通知（リアルタイム）
+            <input type="checkbox" name="新着案件通知（リアルタイム）" value="1"></label><label>
+            値下げ案件通知（リアルタイム）
+            <input type="checkbox" name="値下げ案件通知（リアルタイム）" value="1"></label><label>
+            新着/値下げ案件通知（毎週）
+            <input type="checkbox" name="新着/値下げ案件通知（毎週）" value="1"></label><label>
+            新着/値下げ案件（毎日）
+            <input type="checkbox" name="新着/値下げ案件（毎日）" value="1"></label></div>
+                            <div class="clearfix">
+                                <p class="b">中古ドメイン販売屋さん</p> <label><span>重要なお知らせ</span> <input type="checkbox" name="fake" disabled="disabled" value="true"> </label> <label>
+            おすすめドメイン情報
+            <input type="checkbox" name="おすすめドメイン情報" value="1"></label><label>
+            アップデート
+            <input type="checkbox" name="アップデート" value="1"></label><label>
+            障害・メンテナンス
+            <input type="checkbox" name="障害・メンテナンス" value="1"></label><label>
+            フォローメール
+            <input type="checkbox" name="フォローメール" value="1"></label></div>
+                            <!---->
+                            <div class="clearfix">
+                                <p class="b">ラッコサーバー</p> <label><span>重要なお知らせ</span> <input type="checkbox" name="fake" disabled="disabled" value="true"> </label> <label>
+            アップデート
+            <input type="checkbox" name="アップデート" value="1"></label><label>
+            障害・メンテナンス
+            <input type="checkbox" name="障害・メンテナンス" value="1"></label></div>
+                        </div> <button id="form-block-submit" type="submit" disabled="disabled" class="disabled"><div>保存</div> <!----> <!----> <!----></button></div>
+                </div>
+            </div>
+        </div>
+        <section id="help_guidance">
+            <div class="help_guidance_content">
+                <p class="help_guidance_image"><img src="./assets/img/rakko_help_block.png" alt="悩むラッコ" width="220" height="110"></p>
+                <p class="help_guidance_text">
+                    わからないことは
+                    <a href="https://rakkoid.com/knowledge/" target="_blank" rel="noopener">
+        「マニュアル・よくある質問」
+      </a> ですぐ解決するかも。
+                    <br>それでもわからないことは
+                    <a href="https://rakkoid.com/contact?service_name=rakko-account" target="_blank" rel="noopener">「お問い合わせ」</a> から相談してみよう！
+                </p>
+            </div>
+        </section>
+        <footer>
+            <div id="footerMain">
+                <div>
+                    <a href="https://rakkoid.com/" id="footerLogo">
+                        <a data-v-36af0447="" href="https://rakkoid.com/"><img data-v-36af0447="" src="./assets/img/12_2_tonakai.png"></a>
+                    </a>
+                    <p id="serviceText">
+                        WEBサイト運営に役立つ様々なラッコWEBサービスを一元管理する共通ID
+                    </p> <a href="https://twitter.com/hataraku_rakko" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></div>
+                <div id="footerMenu">
+                    <div class="js-ac">
+                        <p class="b js-ac-trigger ">サポート</p>
+                        <ul class="js-ac-target">
+                            <li><a href="https://rakkoid.com/notification">お知らせ</a></li>
+                            <li><a href="https://rakkoid.com/knowledge/" target="_blank" rel="noopener">ヘルプ・お問い合わせ</a></li>
+                        </ul>
+                    </div>
+                    <div class="js-ac">
+                        <p class="b js-ac-trigger">アカウント</p>
+                        <ul class="js-ac-target">
+                            <li><a href="https://rakkoid.com/register">新規登録</a></li>
+                            <li><a href="https://rakkoid.com/login">ログイン</a></li>
+                            <li><a href="https://rakkoid.com/password/reset">パスワードリセット</a></li>
+                        </ul>
+                    </div>
+                    <div class="js-ac">
+                        <p class="b js-ac-trigger ">運営情報</p>
+                        <ul class="js-ac-target">
+                            <li><a href="https://rakkoid.com/terms">利用規約</a></li>
+                            <li><a href="https://rakko.inc/Privacy/" target="_blank" rel="noopener">プライバシーポリシー
+            </a></li>
+                            <li><a href="https://rakko.inc/" target="_blank" rel="noopener">
+              運営会社
+            </a></li>
+                            <li><a href="https://rakko.inc/#recruitArea" target="_blank" rel="noopener">ラッコ社で働く？
+            </a></li>
+                        </ul>
+                    </div>
+                    <div class="js-ac">
+                        <p class="b js-ac-trigger ">ラッコWEBサービス</p>
+                        <ul class="js-ac-target">
+                            <li><a href="https://rakkoid.com/">ラッコID</a></li>
+                            <li><a href="https://rakkoid.com/affiliate">アフィリエイト</a></li>
+                            <li><a href="https://rakkoma.com/" target="_blank" rel="noopener">
+              サイト売買
+            </a></li>
+                            <li><a href="https://www.topshelfequestrian.com/" target="_blank" rel="noopener">
+              中古ドメイン
+            </a></li>
+                            <li><a href="https://rakkodomain.com/" target="_blank" rel="noopener">
+              ドメイン登録
+            </a></li>
+                            <li><a href="https://rakkoserver.com/" target="_blank" rel="noopener">
+              レンタルサーバー
+            </a></li>
+                            <li><a href="https://related-keywords.com/" target="_blank" rel="noopener">
+              キーワードリサーチ
+            </a></li>
+                            <li><a href="https://rakko.tools/" target="_blank" rel="noopener">
+              ツール
+            </a></li>
+                            <li><a href="https://rakkowp.com/" target="_blank" rel="noopener">
+              WP引っ越し/高速化
+            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="footerSecondary"><address>
+      Copyright(c) 2019-2021
+      <a href="https://rakko.inc/" target="_blank" rel="noopener">
+        Rakko, Inc.
+      </a>
+      All Rights Reserved.
+    </address></div>
+        </footer>
+    </div>
+    <script src="./assets/js/app.js"></script>
+    <script id="rakkoid-help" src="./assets/js/help.js"></script>
+    <div id="rakko_help_widget" style="margin: 0; padding:0;">
+        <div id="widget_help_btn" style="position: fixed; z-index: 11; bottom: 15px; right: 15px;">
+            <a href="https://rakkoid.com/knowledge/" target="_blank" rel="noopener" id="rakko_help_widget_link"><img alt="クエスチョンマーク" src="./assets/img/question_icon.png" id="rakko_help_widget_img" width="8px" height="12px">
+            </a><span id="help_balloon"></span></div>
+    </div>
+
+
+    <div id="mttContainer" class="bootstrapiso" style="left: 0px; top: 0px; position: fixed; z-index: 100000200; width: 500px; margin-left: -250px; background-color: rgba(0, 0, 0, 0); pointer-events: none;" data-original-title="" title=""></div>
+</body>
+
+</html>

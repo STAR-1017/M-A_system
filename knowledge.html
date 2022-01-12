@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+    <link rel="pingback" href="https://rakkoma.com/knowledge/xmlrpc.php">
+    <title>ラッコM&amp;AのKnowledgeBase | マニュアル・よくある質問・ブログ</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="https://use.fontawesome.com/">
+    <link rel="dns-prefetch" href="https://s.w.org/">
+    <link rel="alternate" type="application/rss+xml" title="ラッコM&amp;AのKnowledgeBase » Feed" href="https://rakkoma.com/knowledge/feed/">
+    <link rel="alternate" type="application/rss+xml" title="ラッコM&amp;AのKnowledgeBase » Comments Feed" href="https://rakkoma.com/knowledge/comments/feed/">
+    <script type="text/javascript" async="" src="./assets/js/analytics.js"></script>
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/rakkoma.com\/knowledge\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.2"
+            }
+        };
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode;
+                p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+                e = i.toDataURL();
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (!p || !p.fillText) return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                    case "emoji":
+                        return !s([10084, 65039, 8205, 55357, 56613], [10084, 65039, 8203, 55357, 56613])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="./assets/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="sng-stylesheet-css" href="./assets/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sng-option-css" href="./assets/css/entry-option.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sng-googlefonts-css" href="./assets/css/css" type="text/css" media="all">
+    <link rel="stylesheet" id="sng-fontawesome-css" href="./assets/css/all.css" type="text/css" media="all">
+    <link rel="stylesheet" id="child-style-css" href="./assets/css/style(1).css" type="text/css" media="all">
+    <script type="text/javascript" src="./assets/js/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://rakkoma.com/knowledge/xmlrpc.php?rsd">
+    <link rel="canonical" href="https://rakkoma.com/knowledge/">
+    <link rel="shortlink" href="https://rakkoma.com/knowledge/">
+    <link rel="alternate" type="application/json+oembed" href="https://rakkoma.com/knowledge/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frakkoma.com%2Fknowledge%2F">
+    <link rel="alternate" type="text/xml+oembed" href="https://rakkoma.com/knowledge/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frakkoma.com%2Fknowledge%2F&amp;format=xml">
+    <link rel="stylesheet" id="child-style-css" href="./assets/css/style(2).css">
+    <meta name="description" content="マニュアル・よくある質問・ブログ">
+    <meta property="og:title" content="ラッコM&amp;AのKnowledgeBase｜マニュアル・よくある質問・ブログ">
+    <meta property="og:description" content="検索例：料金 / 個人 / 弁護士 相談 / 請求書 / メール 停止 解決しないことがある場合は、お気軽にお問い合わせからご連絡ください。 マニュアル よくある質問 新着ブログ記事 ブログ記事一覧 閲覧数ランキング">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rakkoma.com/knowledge">
+    <meta property="og:image" content="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko.png">
+    <meta name="thumbnail" content="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko.png">
+    <meta property="og:site_name" content="ラッコM&amp;AのKnowledgeBase">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- gtag.js -->
+    <script async="" src="./assets/js/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-138422433-1');
+    </script>
+    <link rel="icon" href="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/cropped-android-chrome-512x512-1-32x32.png" sizes="32x32">
+    <link rel="icon" href="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/cropped-android-chrome-512x512-1-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/cropped-android-chrome-512x512-1-180x180.png">
+    <meta name="msapplication-TileImage" content="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/cropped-android-chrome-512x512-1-270x270.png">
+    <style type="text/css" id="wp-custom-css">
+        .header #logo img {
+            height: 47px;
+            vertical-align: bottom;
+        }
+        
+        .blogCard {
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 12px;
+            margin-bottom: 1.6rem;
+        }
+        
+        .blogCardCont {
+            position: relative;
+            margin-bottom: 5px;
+            min-height: 100px;
+        }
+        
+        .blogCardCont p {
+            font-size: 12px;
+            overflow: hidden;
+            margin: 0;
+        }
+        
+        .blogCardTxt {
+            margin-right: 110px;
+        }
+        
+        .blogCardTxt p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+        }
+        
+        .blogCardTitle {
+            margin-bottom: 5px;
+            overflow: hidden;
+            -webkit-line-clamp: 2 !important;
+        }
+        
+        .blogCardTitle a {
+            font-size: 17px;
+            line-height: 1.4;
+            color: #3d3f44;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .blogCardTitle a:hover {
+            text-decoration: underline;
+        }
+        
+        .blogCardImg {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        
+        .blogCardImg__wrap {
+            float: right;
+            width: 15%;
+            min-width: 100px;
+            height: 100px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .blogCardImg__wrap img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            max-width: none;
+            max-height: 100%;
+            transform: translateY(-50%) translateX(-50%);
+            -webkit-transform: translateY(-50%) translateX(-50%);
+        }
+        
+        .blogCardFooter {
+            font-size: 12px;
+        }
+        
+        .blogCardFooter a {
+            color: #9aa5ab;
+        }
+        
+        .blogCardFooter a img {
+            margin-right: 5px;
+        }
+        
+        .blogCardTitle a i,
+        .blog article .blogCardFooter a i {
+            display: none;
+        }
+        
+        .blogCard.blogCard--noimg .blogCardCont {
+            min-height: auto;
+        }
+        
+        blogCard.blogCard--noimg .blogCardTxt {
+            margin-right: 0;
+        }
+        /*記事見出し*/
+        
+        @media only screen and (min-width: 769px) {
+            .entry-header .entry-title {
+                font-size: 1.65em;
+            }
+        }
+        
+        .entry-content h2 {
+            padding: 10px 10px 10px 20px;
+            border-left: 5px solid #0a65cc;
+            background: #f4f4f4;
+            border-radius: 5px;
+            margin: 2.5em 0 1em;
+        }
+        
+        .entry-content h3 {
+            border: none;
+            position: relative;
+            padding: 5px 0 5px 20px;
+        }
+        
+        .entry-content h3:before {
+            width: 4px;
+            height: 100%;
+            background: #0a65cc;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 3px;
+        }
+        
+        .entry-content h4 {
+            border-bottom: 3px solid #ddd;
+            padding-bottom: 0.5em;
+        }
+    </style>
+    <style>
+        a {
+            color: #0067c0
+        }
+        
+        .main-c,
+        .has-sango-main-color {
+            color: #000000
+        }
+        
+        .main-bc,
+        .has-sango-main-background-color {
+            background-color: #000000
+        }
+        
+        .main-bdr,
+        #inner-content .main-bdr {
+            border-color: #000000
+        }
+        
+        .pastel-c,
+        .has-sango-pastel-color {
+            color: #cccccc
+        }
+        
+        .pastel-bc,
+        .has-sango-pastel-background-color,
+        #inner-content .pastel-bc {
+            background-color: #cccccc
+        }
+        
+        .accent-c,
+        .has-sango-accent-color {
+            color: #ffb36b
+        }
+        
+        .accent-bc,
+        .has-sango-accent-background-color {
+            background-color: #ffb36b
+        }
+        
+        .header,
+        #footer-menu,
+        .drawer__title {
+            background-color: #ffffff
+        }
+        
+        #logo a {
+            color: #000000
+        }
+        
+        .desktop-nav li a,
+        .mobile-nav li a,
+        #footer-menu a,
+        #drawer__open,
+        .header-search__open,
+        .copyright,
+        .drawer__title {
+            color: #000000
+        }
+        
+        .drawer__title .close span,
+        .drawer__title .close span:before {
+            background: #000000
+        }
+        
+        .desktop-nav li:after {
+            background: #000000
+        }
+        
+        .mobile-nav .current-menu-item {
+            border-bottom-color: #000000
+        }
+        
+        .widgettitle,
+        .sidebar .wp-block-group h2,
+        .drawer .wp-block-group h2 {
+            color: #000000;
+            background-color: #cccccc
+        }
+        
+        .footer {
+            background-color: #e0e4eb
+        }
+        
+        .footer,
+        .footer a,
+        .footer .widget ul li a {
+            color: #3c3c3c
+        }
+        
+        #toc_container .toc_title,
+        .entry-content .ez-toc-title-container,
+        #footer_menu .raised,
+        .pagination a,
+        .pagination span,
+        #reply-title:before,
+        .entry-content blockquote:before,
+        .main-c-before li:before,
+        .main-c-b:before {
+            color: #000000
+        }
+        
+        .searchform__submit,
+        .sidebar .wp-block-search .wp-block-search__button,
+        .drawer .wp-block-search .wp-block-search__button,
+        #toc_container .toc_title:before,
+        .ez-toc-title-container:before,
+        .cat-name,
+        .pre_tag>span,
+        .pagination .current,
+        .post-page-numbers.current,
+        #submit,
+        .withtag_list>span,
+        .main-bc-before li:before {
+            background-color: #000000
+        }
+        
+        #toc_container,
+        #ez-toc-container,
+        .entry-content h3,
+        .li-mainbdr ul,
+        .li-mainbdr ol {
+            border-color: #000000
+        }
+        
+        .search-title i,
+        .acc-bc-before li:before {
+            background: #ffb36b
+        }
+        
+        .li-accentbdr ul,
+        .li-accentbdr ol {
+            border-color: #ffb36b
+        }
+        
+        .pagination a:hover,
+        .li-pastelbc ul,
+        .li-pastelbc ol {
+            background: #cccccc
+        }
+        
+        body {
+            font-size: 100%
+        }
+        
+        @media only screen and (min-width:481px) {
+            body {
+                font-size: 107%
+            }
+        }
+        
+        @media only screen and (min-width:1030px) {
+            body {
+                font-size: 107%
+            }
+        }
+        
+        .totop {
+            background: #5ba9f7
+        }
+        
+        .header-info a {
+            color: #FFF;
+            background: linear-gradient(95deg, #738bff, #85e3ec)
+        }
+        
+        .fixed-menu ul {
+            background: #FFF
+        }
+        
+        .fixed-menu a {
+            color: #a2a7ab
+        }
+        
+        .fixed-menu .current-menu-item a,
+        .fixed-menu ul li a.active {
+            color: #6bb6ff
+        }
+        
+        .post-tab {
+            background: #FFF
+        }
+        
+        .post-tab>div {
+            color: #a7a7a7
+        }
+        
+        .post-tab>div.tab-active {
+            background: linear-gradient(45deg, #bdb9ff, #67b8ff)
+        }
+        
+        body {
+            font-family: "Noto Sans JP", "Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
+        }
+        
+        .dfont {
+            font-family: "Quicksand", "Noto Sans JP", "Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
+        }
+    </style>
+    <style>
+        .bootstrapiso .tooltip {
+            font-size: 14px;
+        }
+        
+        .bootstrapiso .tooltip-inner {
+            max-width: 200px;
+        }
+    </style>
+</head>
+
+<body class="home page-template page-template-page-forfront page-template-page-forfront-php page page-id-124 fa5">
+    <div id="container">
+        <header class="header">
+            <div id="inner-header" class="wrap cf">
+                <h1 id="logo" class="header-logo h1 dfont">
+                    <a href="https://rakkoma.com/knowledge/" class="header-logo__link">
+                        <img src="./assets/img/logo_ma_knowledge.png" alt="ラッコM&amp;AのKnowledgeBase" class="header-logo__img">
+                    </a>
+                </h1>
+                <div class="header-search">
+                    <input type="checkbox" class="header-search__input" id="header-search-input" onclick="document.querySelector(&#39;.header-search__modal .searchform__input&#39;).focus()">
+                    <label class="header-search__close" for="header-search-input"></label>
+                    <div class="header-search__modal">
+                        <form role="search" method="get" class="searchform" action="https://rakkoma.com/knowledge/">
+                            <div>
+                                <input type="search" class="searchform__input" name="s" value="" placeholder="検索">
+                                <button type="submit" class="searchform__submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <nav class="desktop-nav clearfix">
+                    <ul id="menu-pc-header-menu" class="menu">
+                        <li id="menu-item-3116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3116"><a href="https://rakkoid.com/contact?service_name=rakko-ma">お問い合わせ</a></li>
+                        <li id="menu-item-3117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3117"><a href="https://rakkoma.com/">ラッコM&amp;A（TOP）</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <style>
+            #container {
+                background: #FFF;
+            }
+            
+            #main {
+                width: 100%;
+            }
+            
+            .maximg {
+                margin-bottom: 0;
+            }
+            
+            .entry-footer {
+                margin-top: 2rem;
+            }
+            
+            .page-forfront .alignfull {
+                width: 100vw;
+                margin-left: calc(50% - 50vw);
+                max-width: 100vw !important;
+            }
+            
+            @media only screen and (min-width: 1030px) and (max-width: 1239px) {
+                .maximg {
+                    max-width: calc(92% - 58px);
+                }
+            }
+        </style>
+        <div class="bg-white">
+        </div>
+        <div id="content" class="page-forfront">
+            <div id="inner-content" class="wrap cf">
+                <main id="main" class="m-all">
+                    <div class="entry-content">
+                        <div id="top-search">
+                            <form role="search" method="get" class="searchform" action="https://rakkoma.com/knowledge/">
+                                <div>
+                                    <input type="search" class="searchform__input" name="s" value="" placeholder="わからないことキーワードで検索！"><button type="submit" class="searchform__submit"><i class="fas fa-search"></i></button>
+                                </div>
+                            </form>
+                            <p class="many-keywords">検索例：<a href="https://rakkoma.com/knowledge/?s=%E6%96%99%E9%87%91">料金</a> / <a href="https://rakkoma.com/knowledge/?s=%E5%80%8B%E4%BA%BA">個人</a> / <a href="https://rakkoma.com/knowledge/?s=%E5%BC%81%E8%AD%B7%E5%A3%AB+%E7%9B%B8%E8%AB%87">弁護士 相談</a>                                / <a href="https://rakkoma.com/knowledge/?s=%E8%AB%8B%E6%B1%82%E6%9B%B8">請求書</a> / <a href="https://rakkoma.com/knowledge/?s=%E3%83%A1%E3%83%BC%E3%83%AB+%E5%81%9C%E6%AD%A2">メール 停止</a></p>
+                            <p>解決しないことがある場合は、お気軽に<a href="https://rakkoid.com/contact?service_name=rakko-ma" target="_blank" rel="noopener" class="contact">お問い合わせ</a>からご連絡ください。</p>
+                        </div>
+                        <div id="top-manual">
+                            <p class="hh hh25"><i class="fas fa-book"></i>マニュアル</p>
+                            <p></p>
+                            <div class="shtb2 tbrsp"><br>
+                                <div class="cell">
+                                    <p></p>
+                                    <div class="child-category-wrapper">
+                                        <div class="sitemap-category-title"><a href="https://rakkoma.com/knowledge/manual/site-sell/">サイト売却</a></div>
+                                        <p><a class="linkto table" href="https://rakkoma.com/knowledge/3429/"><span class="tbcell tbtext">サイト売却の流れ</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1027/"><span class="tbcell tbtext">売却案件の登録方法</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1378/"><span class="tbcell tbtext">20％以上値下げで注目度アップ！値下げ効果一覧</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1114/"><span class="tbcell tbtext">希望売却価格/自動値下げ設定の変更方法</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/2318/"><span class="tbcell tbtext">案件の交渉申込みを承認・非承認する方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/2397/"><span class="tbcell tbtext">NDA（秘密保持契約）作成・締結の方法</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1500/"><span class="tbcell tbtext">電子契約書（DocuSign）の署名方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/2425/"><span class="tbcell tbtext">新規受付停止の方法</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/2190/"><span class="tbcell tbtext">新規受付再開の方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/2453/"><span class="tbcell tbtext">売却中止の方法</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/3076/"><span class="tbcell tbtext">交渉終了（取引しない）の方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1527/"><span class="tbcell tbtext">取引中止の方法</span></a><br>
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div><br>
+                                <div class="cell">
+                                    <p></p>
+                                    <div class="child-category-wrapper">
+                                        <div class="sitemap-category-title"><a href="https://rakkoma.com/knowledge/manual/site-buy/">サイト購入</a></div>
+                                        <p><a class="linkto table" href="https://rakkoma.com/knowledge/3427/"><span class="tbcell tbtext">サイト購入の流れ</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/220/"><span class="tbcell tbtext">交渉申込みの手順</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1715/"><span class="tbcell tbtext">購入提案を出す方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1500/"><span class="tbcell tbtext">電子契約書（DocuSign）の署名方法</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/3076/"><span class="tbcell tbtext">交渉終了（取引しない）の方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1527/"><span class="tbcell tbtext">取引中止の方法</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/3138/"><span class="tbcell tbtext">検収完了報告の方法</span></a><br>
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div><br>
+                            </div><br>
+                            <div class="shtb2 tbrsp"><br>
+                                <div class="cell">
+                                    <p></p>
+                                    <div class="child-category-wrapper">
+                                        <div class="sitemap-category-title"><a href="https://rakkoma.com/knowledge/manual/general/">全般</a></div>
+                                        <p><a class="linkto table" href="https://rakkoma.com/knowledge/3170/"><span class="tbcell tbtext">契約書の作成・締結の方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/3396/"><span class="tbcell tbtext">交渉・取引相手に開示されるユーザー情報</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/894/"><span class="tbcell tbtext">ユーザー登録方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/957/"><span class="tbcell tbtext">本人確認申請方法とメリット</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/309/"><span class="tbcell tbtext">ウィジェットの使い方（アフィリエイト対応）</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/282/"><span class="tbcell tbtext">案件一覧取得APIの使い方（アフィリエイト対応）</span></a><br>
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div><br>
+                                <div class="cell">
+                                    <p></p>
+                                    <div class="child-category-wrapper">
+                                        <div class="sitemap-category-title"><a href="https://rakkoma.com/knowledge/manual/site-migration/">サイト移行</a></div>
+                                        <a class="linkto table" href="https://rakkoma.com/knowledge/1064/"><span class="tbcell tbtext">【サイト売買・WP引越し】サイトの移行方法・基本の手順</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/7/"><span class="tbcell tbtext">【サイト売買・WP引越し】サーバー移行の準備方法（All-in-One WP Migration）</span></a>
+                                        <a class="linkto table" href="https://rakkoma.com/knowledge/50/"><span class="tbcell tbtext">【サイト売買・WP引越し】Xserverへのサーバー移行方法（All-in-One WP Migration）</span></a>
+                                        <a class="linkto table" href="https://rakkoma.com/knowledge/101/"><span class="tbcell tbtext">【サイト売買・WP引越し】wpX Speedへのサーバー移行方法（All-in-One WP Migration）</span></a>
+                                        <a class="linkto table" href="https://rakkoma.com/knowledge/631/"><span class="tbcell tbtext">【サイト売買・WP引越し】ConoHa WINGへのサーバー移行方法（All-in-One WP Migration）</span></a>
+                                        <div class="category-all-link"><a class="category-showmore-btn" href="https://rakkoma.com/knowledge/manual/site-migration/">サイト移行のマニュアル一覧</a></div>
+                                    </div>
+                                    <p></p>
+                                </div><br>
+                            </div>
+                            <p></p>
+                        </div>
+                        <div id="top-qa">
+                            <p class="hh hh25"><i class="far fa-question-circle"></i>よくある質問</p>
+                            <p></p>
+                            <div class="shtb2 tbrsp"><br>
+                                <div class="cell">
+                                    <p></p>
+                                    <div class="child-category-wrapper">
+                                        <div class="sitemap-category-title"><a href="https://rakkoma.com/knowledge/qa/general-qa/">全般</a></div>
+                                        <p><a class="linkto table" href="https://rakkoma.com/knowledge/2977/"><span class="tbcell tbtext">チャットアイコンの王冠の意味は何ですか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/160/"><span class="tbcell tbtext">他のサイト売買サービスとの違いは何ですか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/162/"><span class="tbcell tbtext">個人での利用は可能ですか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/3130/"><span class="tbcell tbtext">取引が終わった後もチャットは使用できますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/2907/"><span class="tbcell tbtext">海外からでも利用できますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/166/"><span class="tbcell tbtext">利用料金はかかりますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/164/"><span class="tbcell tbtext">サイトの売買にはどのくらいの期間が必要ですか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1498/"><span class="tbcell tbtext">NDA締結中から次のステップに進むことができません</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/183/"><span class="tbcell tbtext">交渉でトラブルが発生したため仲裁してほしい</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/168/"><span class="tbcell tbtext">サイト売買が決定したら契約書を作った方が良いですか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/179/"><span class="tbcell tbtext">無料弁護士相談を利用したい</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/177/"><span class="tbcell tbtext">契約書締結中から次のステップに進むことができません</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1627/"><span class="tbcell tbtext">締結済みの契約書の内容を変更したいです</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/171/"><span class="tbcell tbtext">サイト移行の流れを教えてほしいです</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/173/"><span class="tbcell tbtext">サイトデータの受け渡しはどのようにすればいいですか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/181/"><span class="tbcell tbtext">GoogleAdSenseの契約を引き継ぐことができますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/175/"><span class="tbcell tbtext">サイト売買代金の請求書・領収書は発行されますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1536/"><span class="tbcell tbtext">メール配信を停止してほしいです</span></a><br>
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div><br>
+                                <div class="cell">
+                                    <p></p>
+                                    <div class="child-category-wrapper">
+                                        <div class="sitemap-category-title"><a href="https://rakkoma.com/knowledge/qa/site-sell-qa/">サイト売却</a></div>
+                                        <p><a class="linkto table" href="https://rakkoma.com/knowledge/3007/"><span class="tbcell tbtext">匿名での利用はできますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/192/"><span class="tbcell tbtext">売買価格の相場は？いくらくらいで売れますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/194/"><span class="tbcell tbtext">サイトの査定はしてくれますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1471/"><span class="tbcell tbtext">特定事項とはなんですか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/190/"><span class="tbcell tbtext">サイトは運営期間が短くても売れますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1681/"><span class="tbcell tbtext">複数の案件をまとめて売却することはできますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/216/"><span class="tbcell tbtext">検索エンジンの変動でアクセスが下落したサイトも売れますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/185/"><span class="tbcell tbtext">取り扱えないサイトはありますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1799/"><span class="tbcell tbtext">ドメインのみの売却はできますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/188/"><span class="tbcell tbtext">売却サイト登録をすると必ず売却しないといけませんか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/212/"><span class="tbcell tbtext">サイト上に案件情報を出さずに売却できますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/196/"><span class="tbcell tbtext">サイトを登録した後はどうすればいいですか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1610/"><span class="tbcell tbtext">掲載見送りの理由を知りたいです</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1648/"><span class="tbcell tbtext">案件登録：売上、PVなどの数値は丸めて入力してもいいですか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/732/"><span class="tbcell tbtext">自動値下げ機能とは何ですか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/198/"><span class="tbcell tbtext">案件情報を変更したい</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/200/"><span class="tbcell tbtext">交渉相手に自分の情報は開示されますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/203/"><span class="tbcell tbtext">交渉申込みには何日以内に返答する必要がありますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/206/"><span class="tbcell tbtext">同時に複数の買主と交渉をすすめてもかまいませんか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1542/"><span class="tbcell tbtext">オークション形式（競争入札）で売ることはできますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/208/"><span class="tbcell tbtext">新規の交渉申込の受付を停止したい</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/723/"><span class="tbcell tbtext">移行期限・検収期限・競業避止期間などの目安はどれくらいですか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/727/"><span class="tbcell tbtext">事業譲渡契約書のひな形（テンプレート）を見たいです</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/214/"><span class="tbcell tbtext">買主の検収完了報告を受けましたが、代金はいつ入金されますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/210/"><span class="tbcell tbtext">サイト上の案件情報を消したい</span></a><br>
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div><br>
+                            </div><br>
+                            <div class="shtb2 tbrsp"><br>
+                                <div class="cell">
+                                    <p></p>
+                                    <div class="child-category-wrapper">
+                                        <div class="sitemap-category-title"><a href="https://rakkoma.com/knowledge/qa/site-buy-qa/">サイト購入</a></div>
+                                        <p><a class="linkto table" href="https://rakkoma.com/knowledge/3007/"><span class="tbcell tbtext">匿名での利用はできますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/222/"><span class="tbcell tbtext">売却サイトを実際に見てみたい</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/224/"><span class="tbcell tbtext">交渉相手に自分の情報は開示されますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/228/"><span class="tbcell tbtext">交渉申込み後、取引はどのように進みますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/1350/"><span class="tbcell tbtext">交渉申込み：メッセージに入力する内容はどうすればいい？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/230/"><span class="tbcell tbtext">価格交渉はできますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/232/"><span class="tbcell tbtext">支払い方法は何がありますか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1922/"><span class="tbcell tbtext">売買代金を分割で支払うことはできますか？</span></a><br>
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div><br>
+                                <div class="cell">
+                                    <p></p>
+                                    <div class="child-category-wrapper">
+                                        <div class="sitemap-category-title"><a href="https://rakkoma.com/knowledge/qa/site-migration-qa/">サイト移行代行</a></div>
+                                        <p><a class="linkto table" href="https://rakkoma.com/knowledge/234/"><span class="tbcell tbtext">サイト移行代行サービスは何をしてくれますか？（売主）</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/236/"><span class="tbcell tbtext">サイト移行代行サービスは何をしてくれますか？（買主）</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/238/"><span class="tbcell tbtext">サイト移行代行サービスを利用するにはどうすればいいですか？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/240/"><span class="tbcell tbtext">サイト移行代行サービスの利用条件はありますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/242/"><span class="tbcell tbtext">サイト移行代行サービスの料金は？</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/244/"><span class="tbcell tbtext">サイト移行代行サービス料金の支払方法は？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/246/"><span class="tbcell tbtext">サイト移行代行サービスを利用する場合、移行にどれぐらいの期間を要しますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/248/"><span class="tbcell tbtext">サイト移行代行サービスでASPの引き継ぎはしてもらえますか？</span></a>
+                                            <a class="linkto table" href="https://rakkoma.com/knowledge/250/"><span class="tbcell tbtext">サイト移行代行サービスで各種SNSの引き継ぎはしてもらえますか？</span></a><br>
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div><br>
+                            </div>
+                            <p></p>
+                        </div>
+                        <div id="top-blog">
+                            <p class="hh hh25"><i class="far fa-lightbulb"></i>新着ブログ記事</p>
+                            <a class="linkto table" href="https://rakkoma.com/knowledge/3625/"><span class="tbcell tbtext">【EC特集】参入するなら今！Amazonセラーで成功するために必要なこと</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/3601/"><span class="tbcell tbtext">サイト売買とは？売買の流れとメリット・デメリットを解説</span></a>
+                            <a class="linkto table" href="https://rakkoma.com/knowledge/3562/"><span class="tbcell tbtext">サイト売買プラットフォーム「ラッコM&amp;A」とは？特徴やこだわりポイント</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/3553/"><span class="tbcell tbtext">サイト売買失敗例32選とその対策・リスクを把握してトラブル防止！</span></a>
+                            <a class="linkto table" href="https://rakkoma.com/knowledge/3362/"><span class="tbcell tbtext">サイト売買の相場は？ジャンル別に売り方のコツ・費用を解説</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/3092/"><span class="tbcell tbtext">【買い視点】サイト売買って儲かる？投資による表面利回り200％越えも！？</span></a>
+                            <a class="linkto table" href="https://rakkoma.com/knowledge/3015/"><span class="tbcell tbtext">WEBサービス売買事例：ラッコキーワード×goodkeywordインタビュー</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/2491/"><span class="tbcell tbtext">【事例紹介】ヒトデさんが収益０円のサイトを購入！？サイト売買について色々聞いてみました！</span></a>
+                            <a class="linkto table" href="https://rakkoma.com/knowledge/1851/"><span class="tbcell tbtext">【サイト売買】信頼性の高いエビデンス資料の作成方法</span></a><a class="linkto table" href="https://rakkoma.com/knowledge/1553/"><span class="tbcell tbtext">サイト売買詐欺ってどんなもの？騙されないために見るポイント</span></a>
+                            <div class="category-all-link">
+                                <a class="category-showmore-btn" href="https://rakkoma.com/knowledge/blog/">ブログ記事一覧</a>
+                            </div>
+                        </div>
+                        <div id="top-ranking">
+                            <p class="hh hh25"><i class="fas fa-crown"></i>閲覧数ランキング</p>
+                            <!-- Widget Shortcode -->
+                            <div class="widget my_popular_posts">
+                                <ul class="my-widget ">
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/2491/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/06/hitodesanogp2-160x160.png" alt="【事例紹介】ヒトデさんが収益０円のサイトを購入！？サイト売買について色々聞いてみました！" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/06/hitodesanogp2-160x160.png" alt="【事例紹介】ヒトデさんが収益０円のサイトを購入！？サイト売買について色々聞いてみました！" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                【事例紹介】ヒトデさんが収益０円のサイトを購入！？サイト売買について色々聞いてみました！ </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/703/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                【売主様向け】ラッコM&amp;Aサイト移行代行のご案内 </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/684/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                【買主様向け】ラッコM&amp;Aサイト移行代行のご案内 </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/1441/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                【売主様向け】ラッコM&amp;Aサイト売却仲介サービスのご案内 </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/1064/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                【サイト売買・WP引越し】サイトの移行方法・基本の手順 </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/598/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                ラッコM&amp;A紹介記事のご紹介 </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/618/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                ラッコM&amp;A体験記事のご紹介 </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/309/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                ウィジェットの使い方（アフィリエイト対応） </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/282/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                案件一覧取得APIの使い方（アフィリエイト対応） </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://rakkoma.com/knowledge/1500/">
+                                            <figure class="my-widget__img">
+                                                <img width="160" height="160" data-src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"><noscript><img width="160" height="160" src="https://rakkoma.com/knowledge/wp-content/uploads/2021/02/thumbnail_rakko-160x160.png" loading="lazy"></noscript>
+                                            </figure>
+                                            <div class="my-widget__text">
+                                                電子契約書（DocuSign）の署名方法 </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /Widget Shortcode -->
+                        </div>
+                    </div>
+                    <footer class="entry-footer">
+                    </footer>
+                </main>
+            </div>
+        </div>
+        <footer class="footer">
+            <div id="footer-menu">
+                <div>
+                    <a class="footer-menu__btn dfont footer-logo" href="https://rakkoma.com/knowledge/">
+                        <img src="./assets/img/logo_ma_knowledge.png" alt="ラッコM&amp;AのKnowledgeBase" class="header-logo__img">
+                    </a>
+                </div>
+                <nav>
+                    <div class="footer-links cf">
+                        <ul id="menu-footer-menu" class="nav footer-nav cf">
+                            <li id="menu-item-137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"><a href="https://rakkoma.com/">ラッコM&amp;A（TOP）</a></li>
+                            <li id="menu-item-138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138"><a href="https://rakkoma.com/privacy">プライバシーポリシー</a></li>
+                            <li id="menu-item-139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139"><a href="https://rakkoid.com/contact?service_name=rakko-ma">お問い合わせ</a></li>
+                            <li id="menu-item-140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140"><a href="https://rakkoma.com/company">運営会社</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <p class="copyright dfont">
+                    © 2021 Rakko, Inc. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" id="toc-front-js-extra">
+        /* <![CDATA[ */
+        var tocplus = {
+            "visibility_show": "\u8868\u793a",
+            "visibility_hide": "\u975e\u8868\u793a",
+            "width": "Auto"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="./assets/js/front.min.js" id="toc-front-js"></script>
+    <script type="text/javascript" src="./assets/js/wp-embed.min.js" id="wp-embed-js"></script>
+    <script src="./assets/js/lazyload.min.js"></script>
+    <script>
+        var lazyLoadInstance = new LazyLoad({
+            elements_selector: ".entry-content img",
+            threshold: 400
+        });
+    </script>
+
+    <div id="mttContainer" class="bootstrapiso" style="left: 0px; top: 0px; position: fixed; z-index: 100000200; width: 500px; margin-left: -250px; background-color: rgba(0, 0, 0, 0); pointer-events: none;" data-original-title="" title=""></div>
+</body>
+
+</html>
